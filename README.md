@@ -1,2 +1,2 @@
 # Hangman
-Play hangman as much as you want!
+Command line hangman written in C++
