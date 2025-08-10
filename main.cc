@@ -36,7 +36,6 @@ int main(int argc, char *argv[]) {
 			cout << "Please enter a letter: ";
 			cin >> c;
 			if (cin.eof()) {
-				cout << endl;
 				return 0;
 			}
 			if (!cin || !(('a' <= c) && (c <= 'z'))) {
