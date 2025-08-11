@@ -1,7 +1,7 @@
 module hangman;
 import <algorithm>;
 
-Hangman::Hangman(std::string &word): word{word} {
+Hangman::Hangman(std::string &word): word{word}, wrongs{0} {
 	std::string g(word.length(), '#');
 	guess = g;
 }
